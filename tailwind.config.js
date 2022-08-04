@@ -7,6 +7,9 @@ module.exports = {
          padding: '16px',
       },
       extend: {
+         fontFamily: {
+            inter: ['Inter'],
+         },
          colors: {
             metal: '#565584',
             dark: 'rgb(15 23 42)',
