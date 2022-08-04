@@ -1,3 +1,12 @@
+:root {
+   --purple: 168 85 247;
+   --pink: 236 72 153;
+   --blue: 2 132 199;
+   --orange: 249 115 22;
+
+   --main-theme: var(--orange);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,7 +17,7 @@
 }
 
 .hamburger-line {
-   @apply block h-[2px] w-[30px] bg-dark;
+   @apply block h-[2px] w-[33px] bg-dark;
 }
 
 .hamburger-active > span:nth-child(1) {
