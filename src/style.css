@@ -17,7 +17,7 @@
 }
 
 .hamburger-line {
-   @apply block h-[2px] w-[33px] bg-dark;
+   @apply block h-[2px] w-[35px] bg-dark;
 }
 
 .hamburger-active > span:nth-child(1) {
